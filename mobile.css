@@ -1,0 +1,30 @@
+@media all and (max-width:670px){
+    .page-sheet{
+        margin-top: 4px;
+    }
+    .header-list ul{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+    }
+    .header-list li{
+        background-color: rgb(218, 218, 218);
+        margin: 3px;
+        padding: 4px;
+    }
+
+    .main-img-text{
+        font-size: 18px;
+    }
+
+    .contents h3{
+        text-align: left;
+    }
+
+
+    .footer-cont{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 30px;
+    }
+}
